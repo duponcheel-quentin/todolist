@@ -110,6 +110,37 @@ main {
   margin: 20px 10px 20px 10px;
 }
 
+.titleCard {
+  justify-content: space-between;
+}
+
+/* modification icon */
+.icons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card h5 {
+  width: 70%;
+}
+
+
+
+.titleCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.fa-trash-alt {
+  font-size: 17px;
+  margin: 0px 5px 5px 5px;
+}
+
+.fa-window-close {
+  font-size: 19px;
+}
+
 
 
 
