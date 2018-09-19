@@ -97,8 +97,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+main {
+  width: 80%;
+  margin: auto;
+}
 
+.todo {
+  flex-wrap: wrap;
+}
 
+.cardList {
+  margin: 20px 10px 20px 10px;
+}
 
 
 
