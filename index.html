@@ -1,16 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>todolist</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Bungee+Inline|Libre+Barcode+128+Text" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
@@ -21,15 +22,19 @@
 
 <header>
 
-  <nav class="m-2 navbar-expand-lg navbar-light ">
+  <!-- navigation bar -->
+
+  <nav class="m-2 navbar-expand-lg">
     <div class="d-flex justify-content-end">
-      <a class="navbar-brand btn bg-warning" href="#">Connexion</a>
+      <a class="navbar-brand btn communBtn colorBtn" href="#">Connexion</a>
     </div>
   </nav>
 
+  <!-- Page title -->
+
   <div class="d-flex p-4">
     <div class="container">
-      <h1 class="display-4 d-flex justify-content-center">Todolist</h1>
+      <h1 class="display-4 d-flex justify-content-center">Projet en cours</h1>
     </div>
   </div>
 
@@ -37,23 +42,25 @@
 
 <main>
 
-  <div class="d-flex d-flex justify-content-around todo">
+  <!-- card for todolist -->
+
+  <div class="d-flex justify-content-around todo">
     <div class="card cardList" style="width: 18rem;">
       <div class="card-body col-sm">
         <section class="titleCard">
           <h5 class="card-title">Construction Roubaix-est</h5>
           <div class="iconsContainer">
-            <i class="far fa-trash-alt"></i>
-            <i class="far fa-window-close"></i>
+            <a href=""<i class="far fa-trash-alt iconModif"></i></a>
+            <a href=""<i class="far fa-window-close iconModif"></i></a>
           </div>
         </section>
         <p class="card-text">Prévoir les équipes et les matériaux pour le chantier de la résidence "machin truc".</p>
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><input type="checkbox" </input> Créer les équipes A et B pour le montage de la façade coter nord.</li>
-        <li class="list-group-item"><input type="checkbox" </input> Réserver la logistique nécessaire au montage.</li>
-        <li class="list-group-item"><input type="checkbox" </input> Commander les matériaux.</li>
-        <a href="#" class="btn btn-primary">Ajouter une tache</a>
+      <ul class="positionList">
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Créer les équipes A et B pour le montage de la façade coter nord.</li>
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Réserver la logistique nécessaire au montage.</li>
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Commander les matériaux.</li>
+        <a href="#" class="btn btn-primary sizeBtn communBtn colorBtn">Ajouter une tache</a>
       </ul>
     </div>
 
@@ -62,16 +69,16 @@
         <section class="titleCard">
           <h5 class="card-title">Chantier rénovation lille sud</h5>
           <div class="iconsContainer">
-            <i class="far fa-trash-alt"></i>
-            <i class="far fa-window-close"></i>
+            <a href=""<i class="far fa-trash-alt iconModif"></i></a>
+            <a href=""<i class="far fa-window-close iconModif"></i></a>
           </div>
         </section>
         <p class="card-text">Chantier déjà en rénovation, calculer l'état d'avancement du projet.</p>
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><input type="checkbox" </input> Envoyer un expert pour savoir ce qu'il faut finalisé.</li>
-        <li class="list-group-item"><input type="checkbox" </input> Location d'une benne supplémentaire.</li>
-        <a href="#" class="btn btn-primary">Ajouter une tache</a>
+      <ul class="positionList">
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Envoyer un expert pour savoir ce qu'il faut finalisé.</li>
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Location d'une benne supplémentaire.</li>
+        <a href="#" class="btn btn-primary sizeBtn communBtn colorBtn">Ajouter une tache</a>
       </ul>
     </div>
 
@@ -80,18 +87,18 @@
         <section class="titleCard">
           <h5 class="card-title">Construction d'immeuble Wattrelos</h5>
           <div>
-            <i class="far fa-trash-alt"></i>
-            <i class="far fa-window-close"></i>
+            <a href=""<i class="far fa-trash-alt iconModif"></i></a>
+            <a href=""<i class="far fa-window-close iconModif"></i></a>
           </div>
         </section>
         <p class="card-text">Création d'une résidence privé sur 2 hectares(en collaboration avec d'autres partenaire du secteur privé et publique).</p>
       </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"><input type="checkbox" </input> Obtenir les plans de construction de la partie sud de la résidence.</li>
-        <li class="list-group-item"><input type="checkbox" </input> Location des 2 grues.</li>
-        <li class="list-group-item"><input type="checkbox" </input> Mettre en contacte les éléctriciens et l'architecte pour convenir à un accord sur les arrivées de courants.</li>
-        <li class="list-group-item"><input type="checkbox" </input> Mettre tous la partie sud du terrain à niveau.</li>
-        <a href="#" class="btn btn-primary">Ajouter une tache</a>
+      <ul class="positionList">
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Obtenir les plans de construction de la partie sud de la résidence.</li>
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Location des 2 grues.</li>
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Mettre en contacte les éléctriciens et l'architecte pour convenir à un accord sur les arrivées de courants.</li>
+        <li class="list-group-item bgLi"><input type="checkbox" </input> Mettre toute la partie sud du terrain à niveau.</li>
+        <a href="#" class="btn btn-primary sizeBtn communBtn colorBtn">Ajouter une tache</a>
       </ul>
     </div>
   </div>
@@ -100,6 +107,13 @@
 
 <footer>
 
+  <!-- icons find on fontawesome -->
+
+  <div class="d-flex justify-content-center marginText">
+	 <a class="mx-2 borderIcon" href=""><i class="fab fa-twitter"></i></a>
+	 <a class="mx-2 borderIcon" href=""><i class="fab fa-instagram"></i></a>
+	 <a class="mx-2 borderIcon" href=""><i class="fab fa-facebook-f"></i></a>
+  </div>
 </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>

@@ -97,9 +97,71 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Start global styles */
+
+body {
+  background-color: #000000;
+  background-image: url(../img/constructionDark.jpg);
+}
+
 main {
   width: 80%;
   margin: auto;
+}
+
+ul {
+  margin: 0;
+}
+
+h1, h5, p, li {
+  color : #fc9a07;
+}
+
+h1 {
+  font-family: 'Bungee Inline', cursive;
+}
+
+h5 {
+  font-family: 'Black Ops One', cursive;
+}
+
+footer {
+  width: auto;
+  margin: auto;
+  padding: 0px 0 30px 0;
+}
+
+/* End global styles */
+
+/* Start footer styles  */
+
+.borderIcon {
+    border: 2px solid #BB4430;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: #BB4430;
+    color: #fc9a07;
+}
+
+.borderIcon:hover {
+    transition: 300ms ease-in-out;
+    border: 2px solid #fc9a07;
+    background-color: #fc9a07;
+    color: #BB4430;
+}
+
+/* End footer styles */
+
+/* Start main styles */
+
+.cardList {
+  background-color: #000000;
+}
+
+.bgLi {
+  background-color: #000000;
 }
 
 .todo {
@@ -108,13 +170,13 @@ main {
 
 .cardList {
   margin: 20px 10px 20px 10px;
+  border: 1px #fc9a07 solid;
 }
 
 .titleCard {
   justify-content: space-between;
 }
 
-/* modification icon */
 .icons {
   display: flex;
   justify-content: flex-end;
@@ -123,8 +185,6 @@ main {
 .card h5 {
   width: 70%;
 }
-
-
 
 .titleCard {
   display: flex;
@@ -141,7 +201,40 @@ main {
   font-size: 19px;
 }
 
+.positionList {
+  padding : 0;
+}
 
+.sizeBtn {
+  width: 100%;
+}
+
+.colorBtn {
+  color: #fc9a07;
+}
+
+.colorBtn:hover {
+  background-color: #fc9a07;
+  color: #BB4430;
+}
+
+.communBtn {
+  background-color: #BB4430;
+}
+
+.btnNav {
+  color: #BB4430;
+}
+
+.iconModif {
+  color:#BB4430;
+}
+
+.iconModif:hover {
+  color: #fc9a07;
+}
+
+/* End main styles */
 
 
 
